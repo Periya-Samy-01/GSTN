@@ -95,6 +95,6 @@ The notebook visualizes these metrics to facilitate a comprehensive comparison o
 
 ### Models Comparison
     
-    ![Comparison of all Models](./Comparison_Results/All_Model_performance_result.png)
+    ![Comparison of all Models](Comparison_Results/All_Model_performance_result.png)
 
     Confusion Matrix for individual models will be seen in `/Comparison_Results` folder
