@@ -98,3 +98,25 @@ The notebook visualizes these metrics to facilitate a comprehensive comparison o
     ![Comparison of all Models](Comparison_Results/All_Model_performance_result.png)
 
     Confusion Matrix for individual models will be seen in `/Comparison_Results` folder
+
+
+### app.py Usage
+
+The **app.py** has been added to enhance the flexibility of making predictions using multiple machine learning models. It allows users to input data for prediction and select different pre-trained models for comparison.
+
+### Key Functionality
+1. **Model Selection**: Users can choose from the following models:
+   - Random Forest
+   - XGBoost
+   - LightGBM
+   - CatBoost
+   - HistGradientBoosting
+
+2. **Input Handling**: The app provides a form with 22 dynamically generated fields corresponding to the dataset's columns, allowing for flexible input. These fields allow users to provide their own inputs in the app for real-time predictions.
+
+3. **Multi-model Output**: There’s an option to view the predictions of all models at once in a tabular format, helping users compare outputs across models easily.
+
+### User Interaction
+- The app interface, built using Streamlit, ensures ease of use, making it simple for users to input the necessary values and view predictions. 
+- The input fields accept up to 15 decimal places for accuracy in numerical predictions.
+- NA values in the dataset are handled appropriately in the app without needing explicit preprocessing.
